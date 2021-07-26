@@ -8,6 +8,7 @@ Steps:
 3) cd music-app
 4) open two terminal windows, two git bash clients, or two terminals in your visual code environment ( one to run the frontend and one to run the backend )
 
+Type npm start in the git bash, or terminal
 The npm start script will run two jobs and can take a few minutes to complete
 1) npm i ( install node packages )
 2) react-scripts start ( start the react app)
