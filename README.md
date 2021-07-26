@@ -17,7 +17,7 @@ After the start script completes you will see that the frontend is running and y
 
 In a separate git bash or terminal you will start the server. You will need to wait for the first job to complete before starting the server, otherwise the dependencies may not be fully installed. 
 
-Type "node ./src/server/server.js" will start the server
+Typing "node ./src/server/server.js" will start the server.
 Once the server has started you can start using the app. The server will be running at localhost:3001 and has three endpoints
 
 localhost:3001/artists
