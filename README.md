@@ -1,6 +1,6 @@
 # Spotify Music App
 
-This project runs locally and can be started using npm start in git bash
+This project runs locally. It has a backend written in node, and a frontend written in react. To run the application you must start both. I have included the instructions below.
 
 Steps:
 1) open git bash or terminal
@@ -12,9 +12,9 @@ The npm start script will run two jobs and can take a few minutes to complete
 1) npm i ( install node packages )
 2) react-scripts start ( start the react app)
 
-After the npm start completes you will see that the frontend is running and you should see it in your browser at localhost:3000
+After the npm start completes you will see that the frontend is running and you should see it in your browser at localhost:3000. But you must wait until the server has started to use it.
 
-If this job has not completed you will run into an error when starting the server because not all dependencies will be loaded
+In a separate git bash or terminal you will start the server. You will need to wait for the first job to complete before starting the server, otherwise the dependencies may not be fully installed. If you get an error use ctrl C to stop the server, then wait until the npm start script completes and try again.
 
 The node ./src/server/server.js will start the server
 Once the server has started you can start using the app. The server will be running at localhost:3001 and has three endpoints
