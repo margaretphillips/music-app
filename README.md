@@ -18,9 +18,13 @@ If this job has not completed you will run into an error when starting the serve
 
 The node ./src/server/server.js will start the server
 Once the server has started you can start using the app. The server will be running at localhost:3001 and has three endpoints
-/artists
-/albums
-/tracks
+localhost:3001/artists
+localhost:3001/albums
+localhost:3001/tracks
+
+You can also go to localhost:3001/ to see the server status
 
 When you start the server you will see a JSON response in the console. This is the response which is returning from spotify after using the oath flow. However due to time constraints the data that you are seeing on the frontend
 is actually in a series of JSON files which I pulled through Postman. Please take a look at the code in the router.js file to see the oath and get flow.
+
+The search does a lookup based on the index of the character you type, so there is no need to type the entire name of an artist, album, or track. However if you backspace in the input it will pull all the available items in the category you are looking at.
